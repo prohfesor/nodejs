@@ -6,7 +6,8 @@ var http = require('http');
 
 var server = http.createServer(function(req, res) {
     res.writeHead(200);
+    console.log(req);
     res.end('Hello Http');
 });
 
-server.listen(8080);
+server.listen(9000);
